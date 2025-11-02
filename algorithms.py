@@ -28,7 +28,7 @@ def thanos_sort(input_list: list[int]) -> tuple[list[int], int]:
     return input_list, len(input_list)
 
 def main() -> None:
-    input_list: list[int] = [-1, 0, -1]
+    input_list: list[int] = [3, 1, 2, -1, 4, 7]
     input_list_len: int = len(input_list)
     sorted_list: list[int] = sorted(input_list)
     power: int = rm.randint(1, 99999)
